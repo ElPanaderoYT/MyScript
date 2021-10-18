@@ -1,0 +1,176 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "Simple and Easy Hub",
+     Style = 3,
+     SizeX = 400,
+     SizeY = 300,
+     Theme = "Dark"
+})
+
+local Page = UI.New({
+    Title = "Scripts"
+})
+
+local Page2 = UI.New({
+    Title = "Admin Scripts"
+})
+
+local Page3 = UI.New({
+    Title = "Easy Scripts"
+})
+
+Page2.Button({
+    Text = "Infinity Yield",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "This script is very good as it brings many options and takes up very little space"            
+            })
+        end
+    }
+})
+
+Page2.Button({
+    Text = "CMD X",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source',true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "This script has very good desing and many options (it takes up a bit of screen space)"            
+            })
+        end
+    }
+})
+
+Page2.Button({
+    Text = "Fates Admin",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua'))();
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "This script activate whit ñ and this script have so much options"            
+            })
+        end
+    }
+})
+
+Page3.Button({
+    Text = "esp",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))()
+    end
+})
+
+Page3.Button({
+    Text = "noclip",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ElPanaderoYT/Noclip/main/New%20Noclip'))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "To use the noclip you have to touch e "            
+            })
+        end
+    }
+})
+
+Page.Button({
+    Text = "|Hubs|",
+    Callback = function()
+        print("your mom XD")    
+    end
+})
+
+Page.Button({
+    Text = "Owl Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+    end
+})
+
+Page.Button({
+    Text = "dark Hub",
+    Callback = function()
+        loadstring(game:HttpGet(("https://darkhub.xyz/remote-script.lua"), true))()
+    end
+})
+
+Page.Button({
+    Text = "|------|",
+    Callback = function()
+        print("your mom XD")    
+    end
+})
+
+Page.Button({
+    Text = "Yba",
+    Callback = function()
+        print("your mom XD")    
+    end
+})
+
+Page.Button({
+    Text = "Xenon",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/crackus/main/xenonusfix", true))()   
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "And works in sbr"            
+            })
+        end
+    }
+})
+
+Page.Button({
+    Text = "ItemESP",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/lonlydoge/ybaitemesp/main/main'))()
+    end
+})
+
+Page.Button({
+    Text = "|------|",
+    Callback = function()
+        print("your mom XD")    
+    end
+})
+
+Page.Button({
+    Text = "|Lumber Tycoon 2|",
+    Callback = function()
+        print("your mom XD")    
+    end
+})
+
+Page.Button({
+    Text = "Blood Gui",
+    Callback = function()
+        _G.BloodKey = "AV15102021oddyHackerHockeyAV015102021"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IFYOUWANTBLOOD/hoofer/master/v14.70FREEdoNOTbuy"))()    
+    end
+})
+
+Page.Button({
+    Text = "Bark",
+    Callback = function()
+        loadstring(game:HttpGetAsync'https://cdn.applebee1558.com/bark/bark.lua')('bark > blood :)')    
+    end
+})
+
+Page.Button({
+    Text = "Dirt Gui",
+    Callback = function()
+        loadstring(game:HttpGet("https://dirtgui.xyz/Lt2.lua", true))()    
+    end
+})
