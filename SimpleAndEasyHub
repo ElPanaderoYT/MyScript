@@ -1,7 +1,7 @@
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
 local UI = Material.Load({
-     Title = "Simple and Easy Hub",
+     Title = "Simple and Easy Hub                               Beta V0.0.1",
      Style = 3,
      SizeX = 400,
      SizeY = 300,
@@ -18,6 +18,14 @@ local Page2 = UI.New({
 
 local Page3 = UI.New({
     Title = "Easy Scripts"
+})
+
+local Page4 = UI.New({
+    Title = "Credits"
+})
+
+local Page5 = UI.New({
+    Title = "Changelogs"
 })
 
 Page2.Button({
@@ -105,14 +113,14 @@ Page.Button({
 })
 
 Page.Button({
-    Text = "|------|",
+    Text = "-------------------------------------------------------",
     Callback = function()
         print("your mom XD")    
     end
 })
 
 Page.Button({
-    Text = "Yba",
+    Text = "|Yba|",
     Callback = function()
         print("your mom XD")    
     end
@@ -135,12 +143,12 @@ Page.Button({
 Page.Button({
     Text = "ItemESP",
     Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/lonlydoge/ybaitemesp/main/main'))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hellyeah1/yba-item-esp/main/ybaitemesp.lua", true))()
     end
 })
 
 Page.Button({
-    Text = "|------|",
+    Text = "-------------------------------------------------------",
     Callback = function()
         print("your mom XD")    
     end
@@ -172,5 +180,30 @@ Page.Button({
     Text = "Dirt Gui",
     Callback = function()
         loadstring(game:HttpGet("https://dirtgui.xyz/Lt2.lua", true))()    
+    end
+})
+
+Page4.Button({
+    Text = "Creator :Johnny Joestar#3203",
+    Callback = function()
+        print("Hi :)")    
+    end
+})
+
+Page4.Button({
+    Text = "Beta Tester : cat4444",
+    Callback = function()
+        print("Thanks for using my script")    
+    end
+})
+
+UI.Banner({
+    Text = "This script was updated!"
+})
+
+Page5.Button({
+    Text = "Fixed bugs that when you ran a script it would quit! Beta V0.0.1",
+    Callback = function()
+        print("Thanks for using my script")    
     end
 })
