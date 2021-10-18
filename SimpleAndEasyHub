@@ -9,26 +9,30 @@ local UI = Material.Load({
 })
 
 local Page = UI.New({
-    Title = "Scripts"
+    Title = "Welcome :)"
 })
 
 local Page2 = UI.New({
-    Title = "Admin Scripts"
+    Title = "Scripts"
 })
 
 local Page3 = UI.New({
-    Title = "Easy Scripts"
+    Title = "Admin Scripts"
 })
 
 local Page4 = UI.New({
-    Title = "Credits"
+    Title = "Easy Scripts"
 })
 
 local Page5 = UI.New({
+    Title = "Credits"
+})
+
+local Page6 = UI.New({
     Title = "Changelogs"
 })
 
-Page2.Button({
+Page3.Button({
     Text = "Infinity Yield",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -42,7 +46,7 @@ Page2.Button({
     }
 })
 
-Page2.Button({
+Page3.Button({
     Text = "CMD X",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source',true))()
@@ -56,7 +60,7 @@ Page2.Button({
     }
 })
 
-Page2.Button({
+Page3.Button({
     Text = "Fates Admin",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua'))();
@@ -70,14 +74,14 @@ Page2.Button({
     }
 })
 
-Page3.Button({
+Page4.Button({
     Text = "esp",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))()
     end
 })
 
-Page3.Button({
+Page4.Button({
     Text = "noclip",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/ElPanaderoYT/Noclip/main/New%20Noclip'))()
@@ -91,42 +95,42 @@ Page3.Button({
     }
 })
 
-Page.Button({
+Page2.Button({
     Text = "|Hubs|",
     Callback = function()
         print("your mom XD")    
     end
 })
 
-Page.Button({
+Page2.Button({
     Text = "Owl Hub",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
     end
 })
 
-Page.Button({
+Page2.Button({
     Text = "dark Hub",
     Callback = function()
         loadstring(game:HttpGet(("https://darkhub.xyz/remote-script.lua"), true))()
     end
 })
 
-Page.Button({
+Page2.Button({
     Text = "-------------------------------------------------------",
     Callback = function()
         print("your mom XD")    
     end
 })
 
-Page.Button({
+Page2.Button({
     Text = "|Yba|",
     Callback = function()
         print("your mom XD")    
     end
 })
 
-Page.Button({
+Page2.Button({
     Text = "Xenon",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/crackus/main/xenonusfix", true))()   
@@ -140,28 +144,28 @@ Page.Button({
     }
 })
 
-Page.Button({
+Page2.Button({
     Text = "ItemESP",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/hellyeah1/yba-item-esp/main/ybaitemesp.lua", true))()
     end
 })
 
-Page.Button({
+Page2.Button({
     Text = "-------------------------------------------------------",
     Callback = function()
         print("your mom XD")    
     end
 })
 
-Page.Button({
+Page2.Button({
     Text = "|Lumber Tycoon 2|",
     Callback = function()
         print("your mom XD")    
     end
 })
 
-Page.Button({
+Page2.Button({
     Text = "Blood Gui",
     Callback = function()
         _G.BloodKey = "AV15102021oddyHackerHockeyAV015102021"
@@ -169,28 +173,28 @@ Page.Button({
     end
 })
 
-Page.Button({
+Page2.Button({
     Text = "Bark",
     Callback = function()
         loadstring(game:HttpGetAsync'https://cdn.applebee1558.com/bark/bark.lua')('bark > blood :)')    
     end
 })
 
-Page.Button({
+Page2.Button({
     Text = "Dirt Gui",
     Callback = function()
         loadstring(game:HttpGet("https://dirtgui.xyz/Lt2.lua", true))()    
     end
 })
 
-Page4.Button({
+Page5.Button({
     Text = "Creator :Johnny Joestar#3203",
     Callback = function()
         print("Hi :)")    
     end
 })
 
-Page4.Button({
+Page5.Button({
     Text = "Beta Tester : cat4444",
     Callback = function()
         print("Thanks for using my script")    
@@ -201,7 +205,7 @@ UI.Banner({
     Text = "This script was updated!"
 })
 
-Page5.Button({
+Page6.Button({
     Text = "Fixed bugs that when you ran a script it would quit! Beta V0.0.1",
     Callback = function()
         print("Thanks for using my script")    
