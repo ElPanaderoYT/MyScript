@@ -9,7 +9,7 @@ local UI = Material.Load({
 })
 
 local Page = UI.New({
-    Title = "Welcome :)"
+    Title = "Welcome"
 })
 
 local Page2 = UI.New({
@@ -207,6 +207,13 @@ UI.Banner({
 
 Page6.Button({
     Text = "Fixed bugs that when you ran a script it would quit! Beta V0.0.1",
+    Callback = function()
+        print("Thanks for using my script")    
+    end
+})
+
+Page.Button({
+    Text = "Thanks for using my script",
     Callback = function()
         print("Thanks for using my script")    
     end
