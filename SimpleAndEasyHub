@@ -1,7 +1,7 @@
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
 local UI = Material.Load({
-     Title = "Simple and Easy Hub                               Beta V0.0.2.1",
+     Title = "Simple and Easy Hub                             Beta V0.0.2.1",
      Style = 3,
      SizeX = 400,
      SizeY = 300,
