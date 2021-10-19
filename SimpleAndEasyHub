@@ -1,7 +1,7 @@
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
 local UI = Material.Load({
-     Title = "Simple and Easy Hub                               Beta V0.0.1",
+     Title = "Simple and Easy Hub                               Beta V0.0.2",
      Style = 3,
      SizeX = 400,
      SizeY = 300,
@@ -202,7 +202,7 @@ Page5.Button({
 })
 
 UI.Banner({
-    Text = "This script was updated!"
+    Text = "This script was updated read changelogs!"
 })
 
 Page6.Button({
@@ -214,6 +214,111 @@ Page6.Button({
 
 Page.Button({
     Text = "Thanks for using my script",
+    Callback = function()
+        print("Thanks for using my script")    
+    end
+})
+
+Page2.Button({
+    Text = "-------------------------------------------------------",
+    Callback = function()
+        print("your mom XD")    
+    end
+})
+
+Page2.Button({
+    Text = "|Pet Simulator X|",
+    Callback = function()
+        print("PET")   
+    end
+})
+
+Page2.Button({
+    Text = "Auto Farm And Free Gamepass",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/si1nnx/psxx/main/g"))()        
+    end
+})
+
+Page2.Button({
+    Text = "-------------------------------------------------------",
+    Callback = function()
+        print("your mom XD")    
+    end
+})
+
+Page2.Button({
+    Text = "Prision Life",
+    Callback = function()
+          
+    end
+})
+
+Page2.Button({
+    Text = "Prevail X",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+    end
+})
+
+Page2.Button({
+    Text = "Crash Server",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/Cby2TYe3"))()  
+    end
+})
+
+Page4.Button({
+    Text = "Fly",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/7rXZ9VNc", true))() 
+    end
+})
+
+Page4.Button({
+    Text = "Fe Flip",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ElPanaderoYT/MyScript/main/Fe%20Flip"))() 
+    end
+})
+
+Page4.Button({
+    Text = "Fe Animations",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ElPanaderoYT/MyScript/main/Fe%20Animations"))() 
+    end
+})
+
+Page4.Button({
+    Text = "Fe Animations R15",
+    Callback = function()
+        loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))() 
+    end
+})
+
+Page4.Button({
+    Text = "Dex Explorer",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ElPanaderoYT/MyScript/main/Dex%20Explorer"))()
+    end
+})
+
+Page6.Button({
+    Text = "+Pet simulator X + 1 Script",
+    Callback = function()
+        print("Thanks for using my script")    
+    end
+})
+
+Page6.Button({
+    Text = "+Prision life + 2 Scripts",
+    Callback = function()
+        print("Thanks for using my script")    
+    end
+})
+
+Page6.Button({
+    Text = "+Dex explorer, fly, AnimationsR6/R15, fe flip",
     Callback = function()
         print("Thanks for using my script")    
     end
