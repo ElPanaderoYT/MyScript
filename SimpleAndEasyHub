@@ -1,7 +1,7 @@
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
 local UI = Material.Load({
-     Title = "Simple and Easy Hub                               Beta V0.0.2",
+     Title = "Simple and Easy Hub                               Beta V0.0.2.1",
      Style = 3,
      SizeX = 400,
      SizeY = 300,
@@ -152,6 +152,13 @@ Page2.Button({
 })
 
 Page2.Button({
+    Text = "Kolgie",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kolgie/YBA-GUI/main/yba-gui-obfuscated.lua"))()
+    end
+})
+
+Page2.Button({
     Text = "-------------------------------------------------------",
     Callback = function()
         print("your mom XD")    
@@ -201,8 +208,11 @@ Page5.Button({
     end
 })
 
-UI.Banner({
-    Text = "This script was updated read changelogs!"
+Page5.Button({
+    Text = "Helper : cat4444",
+    Callback = function()
+        print("Thanks for using my script")    
+    end
 })
 
 Page6.Button({
@@ -214,6 +224,20 @@ Page6.Button({
 
 Page.Button({
     Text = "Thanks for using my script",
+    Callback = function()
+        print("Thanks for using my script")    
+    end
+})
+
+Page.Button({
+    Text = "This is a multiple script hub thanks for using !",
+    Callback = function()
+        print("Thanks for using my script")    
+    end
+})
+
+Page.Button({
+    Text = "Created 18/10/21",
     Callback = function()
         print("Thanks for using my script")    
     end
@@ -321,5 +345,26 @@ Page6.Button({
     Text = "+Dex explorer, fly, AnimationsR6/R15, fe flip",
     Callback = function()
         print("Thanks for using my script")    
+    end
+})
+
+Page2.Button({
+    Text = "-------------------------------------------------------",
+    Callback = function()
+        print("your mom XD")    
+    end
+})
+
+Page2.Button({
+    Text = "Anime fighters",
+    Callback = function()
+        print("your mom XD")    
+    end
+})
+
+Page2.Button({
+    Text = "Auto farm, Auto buy, Auto boss",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Code-Fludex/Lua-Scripts/main/AnimeFightingSim.lua"))()    
     end
 })
